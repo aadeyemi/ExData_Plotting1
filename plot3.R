@@ -31,7 +31,7 @@ data$Date <- as.Date(as.character(data$Date))
 data$newdate <- with(data, as.POSIXct(paste(Date, Time), format="%Y-%m-%d %H:%M:%S"))
 
 
-png(file = "figure/plot3.png", bg = "transparent", width = 480, height = 480, units = "px")
+png(file = "figure/plot3.png", bg = "white", width = 480, height = 480, units = "px")
 
 par(mfrow=c(1,1))
 

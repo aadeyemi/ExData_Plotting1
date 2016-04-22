@@ -28,7 +28,7 @@ write.csv(subset_data0, file = "household_power_consumption.csv")
 data <- read.csv("household_power_consumption.csv")
 data$Date <- as.Date(as.character(data$Date))
 
-png(file = "figure/plot1.png", bg = "transparent", width = 480, height = 480, units = "px")
+png(file = "figure/plot1.png", bg = "white", width = 480, height = 480, units = "px")
 
 par(mfrow=c(1,1))
 
